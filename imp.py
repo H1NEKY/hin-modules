@@ -21,7 +21,7 @@ class ImpMod(loader.Module):
         remain = randint(1, 2)
         if way == "en":
             imps = ['не был предателем', 'оказался одним из предалатей']
-            text2 = f"\n{remain} impostor(s) remain."
+            text2 = f"\n{remain} предател{'я' if remain == 2 else 'ь'} остался."
         else:
             imps = ['не был предателем', 'оказался одним из предалатей']
             text2 = f"\n{remain} предател{'я' if remain == 2 else 'ь'} остался."
